@@ -34,8 +34,9 @@ while True:
     print(f'Querying {pin}')
     if False != notes[pin]['h']:
       print(f"{notes[pin]['h']} = False")
-#    if GPIO.input(pin) != notes[pin]['h']:
-#      notes[pin]['h'] = GPIO.input(pin)
+#    inn = GPIO.input(pin)
+#    if notes[pin]['h'] != inn:
+#      notes[pin]['h'] = inn
 #      out.ChangeFrequency(notes[pin]['q'])
-#      GPIO.output(3, GPIO.input(pin))
+#      GPIO.output(3, inn)
   sleep(0.1)
